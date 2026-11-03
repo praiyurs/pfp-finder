@@ -1,25 +1,28 @@
+
 # Privacy Policy — PFP Finder
 
 Last updated: November 2, 2026
 
-PFP Finder is a personal project designed to help its owner search for and organize publicly available Pinterest images.
+PFP Finder is an independently developed personal desktop project designed to help discover and organize profile picture ideas.
 
 ## Information Collection
 
-PFP Finder does not operate a user database or collect personal information from visitors.
+PFP Finder does not operate a user database or collect personal information from website visitors.
 
 ## Pinterest Data
 
-The application may access Pinterest data through Pinterest's official API, subject to Pinterest's permissions and policies.
+PFP Finder does not currently have active Pinterest API access. If access is granted in the future, the application will use Pinterest data only in accordance with its approved permissions and applicable developer policies.
 
 ## Storage
 
-Images downloaded by the application are stored locally on the user's computer.
+Images saved through the application are stored locally on the user's computer.
 
 ## Third Parties
 
-Pinterest API access is subject to Pinterest's own privacy policy and developer terms.
+Pinterest services are subject to Pinterest's own Privacy Policy and Developer Terms.
 
 ## Contact
 
-For questions about this project, contact the project owner through the associated GitHub repository.
+For questions about PFP Finder, contact:
+
+loopdn73@gmail.com
