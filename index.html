@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PFP Finder — Discover Your Next Profile Picture</title>
+<meta name="description" content="PFP Finder is a personal tool for discovering and organizing profile picture ideas.">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0b16;
+  color: #f5f2ff;
+  line-height: 1.7;
+}
+header {
+  padding: 24px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #29233b;
+}
+.logo { font-size: 23px; font-weight: bold; color: #b794ff; }
+nav a { color: #c9c2d8; text-decoration: none; margin-left: 24px; }
+.hero {
+  text-align: center;
+  padding: 110px 20px 90px;
+  background: radial-gradient(ellipse at top, #38205d, #0d0b16 70%);
+}
+.hero h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.15; }
+.hero h1 span { color: #b794ff; }
+.hero p { max-width: 620px; margin: 24px auto; color: #c1b9d1; font-size: 18px; }
+.tag {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid #7955a8;
+  border-radius: 30px;
+  color: #d4baff;
+  margin-bottom: 25px;
+  font-size: 13px;
+}
+section { padding: 75px 8%; }
+.section-title { text-align: center; font-size: 32px; margin-bottom: 15px; }
+.section-desc { text-align: center; color: #aaa1ba; max-width: 600px; margin: 0 auto 40px; }
+.features { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 20px; }
+.feature {
+  background: #191526;
+  border: 1px solid #302743;
+  border-radius: 16px;
+  padding: 27px;
+}
+.feature h3 { color: #c6a7ff; margin-bottom: 10px; }
+.feature p { color: #b5adc5; font-size: 15px; }
+.about { background: #15111f; text-align: center; }
+.about p { max-width: 750px; margin: 20px auto; color: #bdb5cb; }
+footer {
+  padding: 35px 8%;
+  text-align: center;
+  border-top: 1px solid #29233b;
+  color: #9991a8;
+}
+footer a { color: #c6a7ff; margin: 0 10px; text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">✦ PFP Finder</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="privacy.md">Privacy</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="tag">PERSONAL PROFILE PICTURE DISCOVERY TOOL</div>
+    <h1>Find your next<br><span>profile picture.</span></h1>
+    <p>PFP Finder is a personal desktop application designed to help users discover, browse, and organize profile picture ideas through keyword-based searches.</p>
+  </div>
+
+  <section id="features">
+    <h2 class="section-title">What PFP Finder offers</h2>
+    <p class="section-desc">A simple tool focused on making profile picture discovery easier.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Keyword Discovery</h3>
+        <p>Explore profile picture ideas based on search terms and interests.</p>
+      </div>
+      <div class="feature">
+        <h3>Simple Organization</h3>
+        <p>Keep interesting profile picture finds organized for later reference.</p>
+      </div>
+      <div class="feature">
+        <h3>Desktop Experience</h3>
+        <p>A straightforward Python application designed for desktop use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About PFP Finder</h2>
+    <p>PFP Finder is an independently developed personal software project. Its goal is to provide a convenient way to discover and organize profile picture inspiration.</p>
+    <p>The project is not affiliated with or endorsed by Pinterest. Any Pinterest integration will follow applicable platform policies and developer requirements.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 PFP Finder. Independent software project.</p>
+  <p><a href="privacy.md">Privacy Policy</a> · <a href="https://github.com/praiyurs/pfp-finder">GitHub Repository</a></p>
+</footer>
+</body>
+</html>
